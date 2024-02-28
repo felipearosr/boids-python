@@ -5,9 +5,7 @@ from surface import SurfaceArray
 
 def main():
     pg.init()
-    pg.display.set_caption("PixelBoids")
-    try: pg.display.set_icon(pg.image.load("nboids.png"))
-    except: print("FYI: nboids.png icon not found, skipping..")
+    pg.display.set_caption("Boids")
 
     if FLLSCRN:
         currentRez = (pg.display.Info().current_w, pg.display.Info().current_h)
