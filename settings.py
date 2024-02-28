@@ -1,0 +1,11 @@
+# settings.py
+FLLSCRN = True
+BOIDZ = 200
+WIDTH = 1200
+HEIGHT = 800
+PRATIO = 5
+SPEED = 5
+FADE = 30
+WRAP = False
+FPS = 60
+SHOWFPS = False
