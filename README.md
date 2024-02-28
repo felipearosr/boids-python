@@ -11,23 +11,24 @@ These instructions will get you a copy of the project up and running on your loc
 Before you begin, ensure you have the following installed:
 - Python 3.x
 - Pygame
+- Numpy
 
-You can install Pygame using pip:
+You can install Pygame and Numpy using pip:
 
 ```bash
-pip install pygame
+pip install pygame numpy
 ```
 Installation
 
 1.Clone the repository to your local machine:
 
 ```bash
-git clone https://your-repository-url-here
+git clone https://github.com/felipearosr/boids-python
 ```
 2.Navigate into the project directory:
 
 ```bash
-cd PixelBoids
+cd boids-python
 ```
 3.Run the main file to start the simulation:
 
