@@ -3,6 +3,7 @@ from settings import *
 from boid import BoidPix
 from surface import SurfaceArray
 
+
 def main():
     pg.init()
     pg.display.set_caption("Boids")
@@ -21,7 +22,8 @@ def main():
     boidList = [BoidPix(n, drawLayer) for n in range(BOIDZ)]
 
     clock = pg.time.Clock()
-    if SHOWFPS: font = pg.font.Font(None, 30)
+    if SHOWFPS:
+        font = pg.font.Font(None, 30)
 
     while True:
         for e in pg.event.get():
@@ -39,10 +41,13 @@ def main():
         screen.blit(rescaled_img, (0, 0))
 
         if SHOWFPS:
-            screen.blit(font.render(str(int(clock.get_fps())), True, [0, 200, 0]), (8, 8))
+            screen.blit(
+                font.render(str(int(clock.get_fps())), True, [0, 200, 0]), (8, 8)
+            )
 
         pg.display.update()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
     pg.quit()

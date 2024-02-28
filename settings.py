@@ -1,4 +1,3 @@
-# settings.py
 FLLSCRN = False
 BOIDZ = 1000
 WIDTH = 2000

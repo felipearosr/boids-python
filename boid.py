@@ -12,7 +12,7 @@ class BoidPix():
         self.maxW = surfArray.surfSize[0]
         self.maxH = surfArray.surfSize[1]
         self.color = pg.Color(0)  # preps color so we can use hsva
-        self.color.hsva = (randint(0, 360), 90, 90)
+        self.color.hsva = (randint(0, 360), 100, 100)
         self.ang = randint(0, 360)  # random start ang and pos
         self.pos = (randint(10, self.maxW - 10), randint(10, self.maxH - 10))
         self.dir = rotate_vector(self.ang)
