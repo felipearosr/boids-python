@@ -2,6 +2,8 @@
 
 This project is a pixel-based Boids simulation implemented in Python using the Pygame library. It demonstrates the principles of Boid behavior, such as alignment, cohesion, and separation, in a visually appealing pixel array format.
 
+![](https://github.com/felipearosr/boids-python/blob/main/assets/anime3.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
