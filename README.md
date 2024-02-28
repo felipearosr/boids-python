@@ -1,6 +1,6 @@
 # Boids Python
 
-PixelBoids is a pixel-based Boids simulation implemented in Python using the Pygame library. It demonstrates the principles of Boid behavior, such as alignment, cohesion, and separation, in a visually appealing pixel array format.
+This project is a pixel-based Boids simulation implemented in Python using the Pygame library. It demonstrates the principles of Boid behavior, such as alignment, cohesion, and separation, in a visually appealing pixel array format.
 
 ## Getting Started
 
